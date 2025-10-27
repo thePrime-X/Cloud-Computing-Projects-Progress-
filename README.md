@@ -4,4 +4,4 @@ This is my cloud computing repository, where I will be sharing my future work an
 ---
 
 ### Gist
-[Hello World] [https://colab.research.google.com/github/thePrime-X/Cloud-Computing-Projects-Progress-/blob/main/p001.ipynb]
+[Hello World] (https://github.com/thePrime-X/Cloud-Computing-Projects-Progress-/blob/main/p001.ipynb)
