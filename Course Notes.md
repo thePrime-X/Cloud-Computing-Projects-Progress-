@@ -52,3 +52,13 @@ clean:
 ```
 
 **AWS Cloud9** is a cloud-based integrated development environment that allows developers to write, run, and debug their code from anywhere just a web browser.
+
+---- 
+
+### Python Project Scaffold
+**GitHub Repo Checkout** (key Components)
+|________________ MakeFile
+|________________ requirements.txt
+|________________ hello.py
+|________________ test_hello.py
+|________________ virtualenv
