@@ -55,10 +55,28 @@ clean:
 
 ---- 
 
-### Python Project Scaffold
+### Python Project Scaffold (on AWS, Azure, Google cloud)
 **GitHub Repo Checkout** (key Components)
 |________________ MakeFile
 |________________ requirements.txt
 |________________ hello.py
 |________________ test_hello.py
 |________________ virtualenv
+
+----
+### Testing
+**Types of Testing**
+- Unit:
+- Integration:
+- Functional:
+- End-to-End:
+- Acceptance:
+- Performance (Load Testing):
+- Exploratory
+
+**Testing Strategy**
+- Just Right (avoid excessive testing)
+- Use judgement (use personal judgement to uncover what could be wrong)
+- Save you time
+- Automation (automate the testing with an environment that checks workability updated code)
+
