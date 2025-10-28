@@ -32,7 +32,7 @@ Positive aspects of CI:
 **Unit Test** is a built-in testing framework for testing individual units or components of software (functions, methods) to ensure they work as expected.
 
 **MakeFile** is a special file used to control the build process of a software project. It defines a set of rules that specify how to build different parts of a project and how to link them together.
-``
+```
 # Makefile  
 
 # Example Makefile recipe
@@ -50,7 +50,7 @@ clean:
 	rm -rf build
 	
 # Call with `make lint` etc
-``
+```
 
 
 **AWS Cloud9** is a cloud-based integrated development environment that allows developers to write, run, and debug their code from anywhere just a web browser.
@@ -58,14 +58,14 @@ clean:
 
 
 ### Python Project Scaffold (on AWS, Azure, Google Cloud)
-`
+```
 **GitHub Repo Checkout**(Key Components)
 ├── Makefile
 ├── requirements.txt
 ├── hello.py
 ├── test_hello.py
 └── virtualenv/
-`
+```
 
 ### Testing
 **Types of Testing**
