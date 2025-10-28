@@ -1,5 +1,6 @@
 # Cloud Computing Foundations
----
+
+
 ### Effective Technical Project Management
 - Quarterly planning 
 - Weekly Demo
