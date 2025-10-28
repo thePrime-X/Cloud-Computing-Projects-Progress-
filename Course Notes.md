@@ -54,7 +54,6 @@ clean:
 
 **AWS Cloud9** is a cloud-based integrated development environment that allows developers to write, run, and debug their code from anywhere just a web browser.
 
----- 
 
 ### Python Project Scaffold (on AWS, Azure, Google Cloud)
 
@@ -66,8 +65,6 @@ clean:
 └── virtualenv/
 
 
-
-----
 ### Testing
 **Types of Testing**
 - Unit: testing individual pieces of code (one function or method)
