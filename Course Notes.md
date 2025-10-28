@@ -84,13 +84,41 @@ clean:
 - Automation (automate the testing with an environment that checks workability updated code)
 
 **Key Terms**
-- app.yaml: A configuration file that tells Google App Engine how to run your app
+- **app.yaml**: A configuration file that tells Google App Engine how to run your app
 ```yaml
 runtime: python310
 entrypoint: gunicorn -b :$PORT main:app
 ```
-- cloud build
-- idempotence
-- gcloud
-- trigger
-- flask app
+- **cloud build**: Google Cloud Build automates building, testing, and deploying apps using defined workflow steps in a YAML file.
+Use case:
+You push code to GitHub → Cloud Build runs tests → builds a Docker image → deploys it automatically.
+```bash
+steps:
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['build', '-t', 'gcr.io/$PROJECT_ID/myapp', '.']
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['push', 'gcr.io/$PROJECT_ID/myapp']
+```
+- **idempotence**: A process that can run multiple times without changing the result beyond the first run — prevents duplicates or side effects.
+- **gcloud**: The command-line tool for managing Google Cloud resources — used for deployment, database setup, authentication, etc.
+```bash
+gcloud app deploy                  # Deploys App Engine app
+gcloud sql databases create mydb   # Creates a Cloud SQL database
+gcloud auth login                  # Authenticates the user
+```
+- **trigger**: An event listener that starts an automated process when something happens (like a commit, merge, or file update).
+```python
+@on_new_commit
+def deploy_app():
+    print("Deploying application")
+```
+- **Decorator Function**(@on_new_commit): A Python decorator that wraps another function to add behavior — here, it runs deploy_app() only if the commit hash changes.
+```python
+def on_new_commit(func):
+    def wrapper(*args, **kwargs):
+        if cache.get_commit() != os.getenv("GITHUB_SHA"):
+            func(*args, **kwargs)
+    return wrapper
+
+```
+- **flask app**: A minimal Python web app framework often used for cloud deployment.
