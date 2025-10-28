@@ -51,14 +51,14 @@ clean:
 	rm -rf build
 	
 # Call with `make lint` etc
-```
+
 
 
 **AWS Cloud9** is a cloud-based integrated development environment that allows developers to write, run, and debug their code from anywhere just a web browser.
 
 
 ### Python Project Scaffold (on AWS, Azure, Google Cloud)
-
+```
 **GitHub Repo Checkout**(Key Components)
 ├── Makefile
 ├── requirements.txt
