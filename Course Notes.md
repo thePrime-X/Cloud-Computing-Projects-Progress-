@@ -56,25 +56,27 @@ clean:
 
 ---- 
 
-### Python Project Scaffold (on AWS, Azure, Google cloud)
-**GitHub Repo Checkout** (key Components)
-|________________ MakeFile
-|________________ requirements.txt
-|________________ hello.py
-|________________ test_hello.py
-|________________ virtualenv
+### Python Project Scaffold (on AWS, Azure, Google Cloud)
+
+**GitHub Repo Checkout**(Key Components)
+├── Makefile
+├── requirements.txt
+├── hello.py
+├── test_hello.py
+└── virtualenv/
+
 
 
 ----
 ### Testing
 **Types of Testing**
-- Unit:
-- Integration:
-- Functional:
-- End-to-End:
-- Acceptance:
-- Performance (Load Testing):
-- Exploratory
+- Unit: testing individual pieces of code (one function or method)
+- Integration: testing how different units work together (making sure combined parts interact correctly)
+- Functional: testing a specific feature or function from the user's perspective
+- End-to-End: testing the entire workflow from start to finish (like real user)
+- Acceptance: testing to confirm the system meets business requirements and is ready for release
+- Performance (Load Testing): testing how the system behaves under stress or heavy usage
+- Exploratory: testing without a strict plan (testers explore the app freely to find unexpected bugs)
 
 **Testing Strategy**
 - Just Right (avoid excessive testing)
