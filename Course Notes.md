@@ -1,4 +1,4 @@
-# Module 1
+# Cloud Computing Foundations
 ---
 ### Effective Technical Project Management
 - Quarterly planning 
