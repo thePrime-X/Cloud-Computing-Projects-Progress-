@@ -83,3 +83,14 @@ clean:
 - Save you time
 - Automation (automate the testing with an environment that checks workability updated code)
 
+**Key Terms**
+- app.yaml: A configuration file that tells Google App Engine how to run your app
+  ```yaml
+runtime: python310
+entrypoint: gunicorn -b :$PORT main:app
+```
+- cloud build
+- idempotence
+- gcloud
+- trigger
+- flask app
