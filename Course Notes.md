@@ -88,7 +88,7 @@ clean:
   ```yaml
 runtime: python310
 entrypoint: gunicorn -b :$PORT main:app
-```
+
 - cloud build
 - idempotence
 - gcloud
