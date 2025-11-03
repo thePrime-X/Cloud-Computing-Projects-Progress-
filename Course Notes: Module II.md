@@ -1,9 +1,14 @@
-#Cloud Virtualization, Containers and APIs
+# Cloud Virtualization, Containers and APIs
 
-###Getting Started with Cloud Building Blocks
+-----
+### Getting Started with Cloud Building Blocks
 
-###Virtualization and Containers
 
-###Microservices
+-----
+### Virtualization and Containers
 
-###Operations
+-----
+### Microservices
+
+-----
+### Operations
